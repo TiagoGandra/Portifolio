@@ -33,10 +33,15 @@ p{
 hr{
     border-style: none;
     border-top-style: dotted ;
-    border-color: #cef3f3;
+    border-color: #b0eeee;
     border-width: 10px;
     width: 5%;
     margin: 50px auto 50px auto;
+}
+a{
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    text-decoration: none;
 }
 .tc{
     background-color: #c6f1d6;
@@ -70,10 +75,11 @@ hr{
     height: 200px;
     float: right;
     padding-left: 30px;
+    object-fit: fill;
 }
 .skill-row{
     margin: 100px auto 100px auto;
-    width: 50%;
+    width: 70%;
     text-align: left;
 }
 .dev{
