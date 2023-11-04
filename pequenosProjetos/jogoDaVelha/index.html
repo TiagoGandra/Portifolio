@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <main data-theme="light">
+      <header>
+        <h1>Jogo da Velha</h1>
+        <label for="player1">X</label>
+        <input type="text" id="player1" placeholder="Jogador 1" />
+        <label for="player2">O</label>
+        <input type="text" id="player2" placeholder="Jogador 2" />
+        <button id="start">Registrar e Começar</button>
+        <h2 class="turn">Vez de: <span id="turnPlayer"></span></h2>
+      </header>
+      <section id="gameBoard">
+        <span class="cursos-pointer" data-region="0.0"></span>
+        <span class="cursos-pointer" data-region="0.1"></span>
+        <span class="cursos-pointer" data-region="0.2"></span>
+        <span class="cursos-pointer" data-region="1.0"></span>
+        <span class="cursos-pointer" data-region="1.1"></span>
+        <span class="cursos-pointer" data-region="1.2"></span>
+        <span class="cursos-pointer" data-region="2.0"></span>
+        <span class="cursos-pointer" data-region="2.1"></span>
+        <span class="cursos-pointer" data-region="2.2"></span>
+      </section>
+    </main>
+  </body>
+</html>
