@@ -1,0 +1,9 @@
+.Top-menu{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.Top-menu p{
+  padding-left: 5vmin;
+}

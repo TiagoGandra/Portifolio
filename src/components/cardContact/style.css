@@ -1,0 +1,24 @@
+.Card-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Card-left-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  margin: 5vmin;
+  width: 50%;
+}
+
+.Card-right-side{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  margin: 5vmin;
+}
