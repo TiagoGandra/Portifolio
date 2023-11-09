@@ -42,8 +42,10 @@ function App() {
             <CardProjects></CardProjects>
           </div>
         </div>
-        <div className="contact-me">
-          <CardContact></CardContact>
+        <div className='contact'>
+          <div className="contact-me">
+            <CardContact></CardContact>
+          </div>
         </div>
       </body>
       <footer className='App-footer'>

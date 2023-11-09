@@ -1,0 +1,18 @@
+.My-footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.My-footer-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.My-footer-row p, a{
+  margin-right: 3vmin;
+}

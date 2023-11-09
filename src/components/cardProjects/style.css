@@ -1,4 +1,4 @@
-.Card-projects{
+/* .Card-projects{
   display: flex;
   width: 50vmin;
   height: 25vmin;
@@ -9,7 +9,6 @@
   flex-shrink: 0;
   border-radius: 22px;
   background: linear-gradient(102deg, #D561DE 17.09%, #2954A3 79.98%);
-
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
@@ -21,8 +20,57 @@
   border: 1px solid #FFF;
 
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(0, 0, 0, 0.10);
-
-  /* Shadow/M */
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.60), 0px 2px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.04);
 
+} */
+
+/* Estilos para a div pai */
+.Card-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 22px;
+  padding: 20px;
+  margin: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 300px;
+  background: linear-gradient(102deg, #D561DE 17.09%, #2954A3 79.98%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Estilos para o título do projeto */
+.Card-projects h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+/* Estilos para a descrição do projeto */
+.Card-projects p {
+  margin: 10px 0;
+}
+
+/* Estilos para o botão */
+.Card-projects button {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.60), 0px 2px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.04);
+  border-radius: 80px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Estilos responsivos para telas menores que 600px */
+@media only screen and (max-width: 600px) {
+  .Card-projects {
+    width: 100%;
+  }
 }
