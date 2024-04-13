@@ -7,66 +7,177 @@
     <link rel="icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
+<header>
+  <div class="topMenu">
+    <a href="#profile" class="topmenu-button" data-clr="#e4ecfa">
+      <p>Sobre mim</p>
+    </a>
+    <a href="#techs" class="topmenu-button"  data-clr="#fff6cc">
+      <p>Tecnologias</p>
+    </a>
+    <a href="#projects" class="topmenu-button"  data-clr="#f0e4fa">
+      <p>Projetos</p>
+    </a>
+    <a href="#contact" class="topmenu-button" data-clr="#f0e4fa">
+      <p>Contato</p>
+    </a>
+  </div>
+</header>
 <body>
-    <div class="tc">
-      <div class="title">
-        <h1>Tiago Gandra</h1>
-        <h2 class="dev">Desenvolvedor Web</h2>
+  <div class="menu">
+    <a href="#profile" class="menu-button" data-clr="#e4ecfa">
+      <img src="images/icons8-usuário-48.png">
+    </a>
+    <a href="#techs" class="menu-button"  data-clr="#fff6cc">
+      <img src="images/icons8-codificação-laptop-48.png">
+    </a>
+    <a href="#projects" class="menu-button"  data-clr="#f0e4fa">
+      <img src="images/icons8-tela-de-apresentação-48.png">
+    </a>
+    <a href="#contact" class="menu-button" data-clr="#f0e4fa">
+      <img src="images/icons8-contato-48.png">
+    </a>
+  </div>
+  <section id="profile">
+    <div class="profile">
+      <h1>Tiago Gandra</h1>
+      <p>Desenvolvedor motivado em aprender e trabalhar na área. Interessado na área de desenvolvimento web, estou sempre estudando e me aprimorando. Tenho interesses em me tornar um desenvolvedor Full Stack, por enquanto sigo meus estudos no front-end, mas visando me aprofundar no back-end futuramente.</p>
+    </div>
+    <div class="ring"></div>
+    <div class="ring2"></div>
+    <div class="ring3"></div>
+
+  </section>
+  <section id="techs">
+
+    <h1 class="title">Tecnologias</h1>
+    <p>Tecnologias que já estudei e desenvolvi projetos:</p>
+    <div class="techs">
+      <div class="techs-column">
+          <div class="cardTech">
+            <h3>HTML5</h3>
+            <img src="images/techs-icon/html.png" alt="html-tech">
+          </div>
+          <div class="cardTech">
+            <h3>CSS3</h3>
+            <img src="images/techs-icon/css.png" alt="css-tech">
+          </div>
+          <div class="cardTech">
+            <h3>JavaScript</h3>
+            <img src="images/techs-icon/js.png" alt="js-tech">
+          </div>
+      </div>
+      <div class="techs-column">
+          <div class="cardTech">
+            <h3>Typescript</h3>
+            <img src="images/techs-icon/ts.png" alt="ts-tech">
+          </div>
+          <div class="cardTech">
+            <h3>React</h3>
+            <img src="images/techs-icon/react.png" alt="react-tech">
+          </div>
+          <div class="cardTech">
+            <h3>React Native</h3>
+            <img src="images/techs-icon/react.png" alt="reactnative-tech">
+          </div>
+      </div>
+      <div class="techs-column">
+          <div class="cardTech">
+            <h3>Python</h3>
+            <img src="images/techs-icon/py.png" alt="py-tech">
+          </div>
+          <div class="cardTech">
+            <h3>MySQL</h3>
+            <img src="images/techs-icon/mysql.png" alt="mysql-tech">
+          </div>
+          <div class="cardTech">
+            <h3>PHP</h3>
+            <img src="images/techs-icon/PHP.png" alt="php-tech">
+          </div>
       </div>
     </div>
-    <div class="mc">
-          <div class="profile">
-            <div class="profile-text">
-              <h2>Perfil</h2>
-              <p>Desenvolvedor motivado em aprender e trabalhar na área. Interessado na área de desenvolvimento web, estou sempre estudando e me aprimorando. Tenho interesses em me tornar um desenvolvedor Full Stack, por enquanto sigo meus estudos no front-end, mas visando me aprofundar no back-end futuramente.</p>
-            </div>
-            <hr>
-            <div class="skills">
-              <h2>Conhecimentos</h2>
-              <div class="skill-row">
-                <img class="prg-image" src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" alt="Dev-Image">
-                <h3>Front-End</h3>
-                <p>Meu conhecimento em Front-End se baseia por enquanto apenas no basico de html, css e javascript. Estou estudando e dominando frameworks e tecnologias que me auxiliem no desenvolvimento, como React, TypeScript e SASS.</p>
-              </div>
-              <div class="skill-row">
-                <img class="gms-image" src="https://cdn.pixabay.com/photo/2016/12/09/18/30/database-schema-1895779_960_720.png" alt="Game-Image">
-                <h3>Back-End</h3>
-                <p>Minha experiencia no Back-End se baseia apenas no banco de dados, MySQL e Oracle SQL. Após dominar o front-end, vou me apronfundar e estudar NodeJS e sua interação com o SQL para então seguir com meus planos de ser um desenvolvedor Full Stack</p>
-              </div>
-            </div>
-          </div>
-          <div class="projetos">
-            <h2>Projetos</h2>
-            <div class="projetos">
-              <h3>To-Do List</h3>
-              <p>Aplicativo para listagem de tarefas.</p>
-              <a href="https://github.com/TiagoGandra/ReactApp">Link do Github</a>
-            </div>
-            <div class="projetos">
-              <h3>Server peer-to-peer com IA</h3>
-              <p>Servidor peer-to-peer virtual, com um servidor e dois clientes integrados a uma inteligência artificial para detecção de fake news.</p>
-              <a href="https://github.com/TiagoGandra/peer-to-peer-IA">Link do Github</a>
-            </div>
-            <div class="projetos">
-              <h3>Pequenos projetos</h3>
-              <p>Pequenos projeto que realizei durante meus estudos como programador.</p>
-              <a href="./pequenosProjetos/calculadora/index.html">Calculadora</a>
-              <br/>
-              <a href="./pequenosProjetos/jogoDaVelha/index.html">Jogo da Velha</a>
-            </div>
-          </div>
-          <hr>
-          <div class="contact-me">
-            <h2>Contatos</h2>
-            <h3>Gostou do meu trabalho?.</h3>
-            <p>Segue link dos meus contatos.</p>
-            <a class="contate-me" href="mailto:tiaogandrati@gmail.com">CONTACT ME</a>
-          </div>
-    </div> 
-    <div class="bc">
-        <a class="footer-link" href="https://www.linkedin.com/in/tiago-gandra-946a91198/">LinkedIn</a>
-        <a class="footer-link" href="https://github.com/TiagoGandra"> GitHub</a>
-        <p class="copyright">© 2021 Tiago Gandra.</p>
+  </section>
+  <section id="projects">
+    <h1 class="title">Projetos</h1>
+    <p>Meus projetos pessoais e projetos realizados durante a graduação:</p>
+    <div class="projects">
+      <div class="projects-column">
+        <div class="cardProjects">
+          <h3>peer-to-peer-IA</h3>
+          <p>Projeto realizado para a disciplina de Arquitetura de Sistemas Distribuídos no CEUB. Servidor peer-to-peer virtual, com um servidor e dois clientes integrados a uma inteligência artificial para detecção de fake news.</p>
+          <a href="https://github.com/TiagoGandra/peer-to-peer-IA" target="_blank"><button>See more</button></a>
+        </div>
+        <div class="cardProjects">
+          <h3>To-Do List</h3>
+          <p>Aplicativo mobile para listagem de tarefas desenvolvido com React Native.</p>
+          <a href="https://github.com/TiagoGandra/ReactApp" target="_blank"><button>See more</button></a>
+        </div>
+      </div>
+      <div class="projects-column">
+        <div class="cardProjects">
+          <h3>Demeter</h3>
+          <p>Projeto realizado para o TCC do curso de Ciência da computação no CEUB. Aplicativo mobile de organização de estoque, emissão de nota fiscal e contato para comercio de alimentos  e materiais agrícolas.</p>
+          <a href="https://github.com/TiagoGandra/Demeter" target="_blank"><button>See more</button></a>
+
+        </div>
+        <div class="cardProjects">
+          <h3>Projects</h3>
+          <p>Projetos feitos com HTML, CSS e JavaScript.</p>
+          <a href="pequenosProjetos\index.html" target="_blank"><button>See more</button></a>
+
+        </div>
+      </div>
     </div>
+  </section>
+  <section id="contact">
+    <div class="contact">
+      <div class="contact-me">
+        <div class="cardContact">
+          <div class='cardLeftSide'>
+            <div>
+              <h2>Contato</h2>
+              <p>Sou muito acessível e adoraria falar com você. Sinta-se à vontade para ligar, enviar um e-mail. Siga-me nas redes sociais ou simplesmente me envie um e-mail ao lado(função de envio de mensagem ainda não implementada).</p>
+            </div>
+            <div>
+              <p>+55 (61) 99210-2898</p>
+              <p>tiagogandrati@gmail.com</p>
+              <a href='https://github.com/TiagoGandra' target="_blank"><img src="images/icons8-github-48.png" alt="github-icon"></a>
+              <a href='https://www.linkedin.com/in/tiago-gandra-946a91198/' target="_blank"><img src="images/icons8-linkedin-48.png" alt="linkedin-icon"></a>
+            </div>
+          </div>
+          <form>
+            <div class='cardRightSide'>
+              <h2>Envie-me uma mensagem</h2>
+              <input name="name" placeholder='Nome' />
+              <input name="email" placeholder='Email' />
+              <input name="subject" placeholder='Assunto' />
+              <textarea name="text" placeholder='Escreva sua mensagem...' ></textarea>
+              <button type="submit">Enviar mensagem</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
+<!-- <footer class="appFooter">
+  <div class="myFooterRow">
+    <a href="#profile" class="footer-button" data-clr="#e4ecfa">
+      <img src="images/icons8-usuário-48.png">
+      <p>Sobre mim</p>
+    </a>
+    <a href="#techs" class="footer-button"  data-clr="#fff6cc">
+      <img src="images/icons8-codificação-laptop-48.png">
+      <p>Tecnologias</p>
+    </a>
+    <a href="#projects" class="footer-button"  data-clr="#f0e4fa">
+      <img src="images/icons8-tela-de-apresentação-48.png">
+      <p>Projetos</p>
+    </a>
+    <a href="#contact" class="footer-button" data-clr="#f0e4fa">
+      <img src="images/icons8-contato-48.png">
+      <p>Contato</p>
+    </a>
+  </div>
+</footer> -->
 </html>

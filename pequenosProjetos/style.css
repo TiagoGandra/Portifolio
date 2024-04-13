@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(135deg, #0F103F 0%, #2F2F8A 100%);
+    text-align: center;
+    color: white;
+    height: 97.5vh;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .projects-column {
+    flex: 1;
+    margin: 10px;
+    padding-left: 5rem;
+  }
+
+  .cardProjects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 22px;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    background: linear-gradient(102deg, #D561DE 17.09%, #2954A3 79.98%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    min-width: 750px;
+    min-height: 300px;
+  }
+  
+  /* Estilos para o título do projeto */
+  .cardProjects h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+  }
+  
+  /* Estilos para a descrição do projeto */
+  .cardProjects p {
+    margin: 10px 0;
+    font-size: 1.5rem;
+  }
+  
+  /* Estilos para o botão */
+  .cardProjects button {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%), rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.60), 0px 2px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 80px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  /* Estilos responsivos para telas menores que 600px */
+  @media only screen and (max-width: 600px) {
+    .cardProjects {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .projects-column {
+      flex: 1 0 100%; /* Isso faz com que as colunas ocupem 100% da largura em telas menores que 600px */
+      justify-content: center;
+    }
+    .techs-column {
+      flex: 1 0 100%; /* Isso faz com que as colunas ocupem 100% da largura em telas menores que 600px */
+      justify-content: center;
+    }
+  }
